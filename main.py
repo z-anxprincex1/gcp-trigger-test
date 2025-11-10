@@ -4,7 +4,6 @@ from flask import request
 import os 
 
 app = Flask(__name__)
-# client = bigquery.Client()
 
 @app.route('/')
 def main(big_query_client=None):
